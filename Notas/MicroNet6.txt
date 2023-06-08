@@ -1,0 +1,48 @@
+GUIAS DE HERRAMIENTAS A UTILIZAR EN EL CURSO
+============================================
+
+
+1.- Windows 10 HOME o superior
+
+2.- Visual Studio 2022 con el sdk de NET6
+	https://bit.ly/3gt5WPy
+
+3.- Docker - Windows 10 
+	https://bit.ly/39B5yuw
+	
+4.- Insomnia (Puede usar el de su preferencia por ejemplo POSTMAN)
+    	https://bit.ly/3guhrVV
+
+5.- Azure Data Studio para bases de datos SQL (Puede usar el de su preferencia)
+	https://bit.ly/3c6Z1qH
+
+6.- PG Admin v4 o superior para bases de datos Postgres (Puede usar el de su preferencia)
+    	https://bit.ly/3dbjf3Y
+
+7.- IDE para bases de datos Mongo (Puede usar el de su preferencia)
+    	https://bit.ly/3d9MMev 
+	
+8.- IDE para bases de datos Mysql y MariaDB (Puede usar el de su preferencia)
+    	https://tinyurl.com/yu2z8578
+	
+9.- MobaXterm
+	https://bit.ly/3GxaYVP
+
+10.- Visual Code
+	https://bit.ly/2Af7ACG
+
+11.- Cuenta en Azure
+	https://tinyurl.com/43cfxfzp
+
+12.- Chrome
+
+13.- Cuenta Docker HUB
+	https://hub.docker.com/
+
+14.- Cuenta de GitLab
+	https://gitlab.com/users/sign_up
+
+
+NOTA:
+
+Las herramientas pueden cambiar su forma de instalación, tome las guías como una referencia.

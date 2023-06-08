@@ -1,0 +1,66 @@
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.csproj.AssemblyReference.cache
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.AssemblyInfoInputs.cache
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.AssemblyInfo.cs
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.csproj.CoreCompileInputs.cache
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\appsettings.json
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\appsettings.local.json
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.exe
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.deps.json
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.runtimeconfig.json
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.dll
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.pdb
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Npgsql.dll
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets\msbuild.MS.AFORO255.Deposit.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets\msbuild.build.MS.AFORO255.Deposit.props
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MS.AFORO255.Deposit.props
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MS.AFORO255.Deposit.props
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\scopedcss\bundle\MS.AFORO255.Deposit.styles.css
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.csproj.CopyComplete
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.dll
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\refint\MS.AFORO255.Deposit.dll
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.pdb
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.genruntimeconfig.cache
+C:\Users\Ivan Cuadros\Desktop\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\ref\MS.AFORO255.Deposit.dll
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\appsettings.Development.json
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\appsettings.json
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\appsettings.local.json
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.exe
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.deps.json
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.runtimeconfig.json
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.dll
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\MS.AFORO255.Deposit.pdb
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Npgsql.dll
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.csproj.AssemblyReference.cache
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.GeneratedMSBuildEditorConfig.editorconfig
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.AssemblyInfoInputs.cache
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.AssemblyInfo.cs
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.csproj.CoreCompileInputs.cache
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.MvcApplicationPartsAssemblyInfo.cache
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets\msbuild.MS.AFORO255.Deposit.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets\msbuild.build.MS.AFORO255.Deposit.props
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MS.AFORO255.Deposit.props
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MS.AFORO255.Deposit.props
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets.pack.json
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets.build.json
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\staticwebassets.development.json
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\scopedcss\bundle\MS.AFORO255.Deposit.styles.css
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.csproj.CopyComplete
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.dll
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\refint\MS.AFORO255.Deposit.dll
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.pdb
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\MS.AFORO255.Deposit.genruntimeconfig.cache
+D:\AFORO255\CURSOS\NET7-MICROSERVICIOS\V1\guides\01\MS.AFORO255\MS.AFORO255.Deposit\obj\Debug\net7.0\ref\MS.AFORO255.Deposit.dll
