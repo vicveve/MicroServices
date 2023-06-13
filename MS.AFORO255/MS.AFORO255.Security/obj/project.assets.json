@@ -2576,23 +2576,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vvict\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\vevelasco\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vvict\\Documents\\GitHub\\Microservicios\\MicroServices\\MS.AFORO255\\MS.AFORO255.Security\\MS.AFORO255.Security.csproj",
+      "projectUniqueName": "D:\\vicWorkSpace\\GitHub\\MicroServices\\MS.AFORO255\\MS.AFORO255.Security\\MS.AFORO255.Security.csproj",
       "projectName": "MS.AFORO255.Security",
-      "projectPath": "C:\\Users\\vvict\\Documents\\GitHub\\Microservicios\\MicroServices\\MS.AFORO255\\MS.AFORO255.Security\\MS.AFORO255.Security.csproj",
-      "packagesPath": "C:\\Users\\vvict\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vvict\\Documents\\GitHub\\Microservicios\\MicroServices\\MS.AFORO255\\MS.AFORO255.Security\\obj\\",
+      "projectPath": "D:\\vicWorkSpace\\GitHub\\MicroServices\\MS.AFORO255\\MS.AFORO255.Security\\MS.AFORO255.Security.csproj",
+      "packagesPath": "C:\\Users\\vevelasco\\.nuget\\packages\\",
+      "outputPath": "D:\\vicWorkSpace\\GitHub\\MicroServices\\MS.AFORO255\\MS.AFORO255.Security\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\vvict\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vevelasco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2602,7 +2604,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "http://10.100.66.131:8080/tfs/CDSJPackageCollection/_packaging/CJF.Nuget/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -2650,7 +2651,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10BF2CE6-176F-46EE-9D7F-7E5BE7C271AE}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose-databases.yml = docker-compose-databases.yml
+		docker-compose-services.yml = docker-compose-services.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integrations", "Integrations", "{F826DC41-0CFD-4541-861A-BCF217DA5C00}"
