@@ -1,0 +1,9 @@
+_format_version: "2.1"
+ 
+services:
+  - name: security-service
+    url: http://host.docker.internal:5001/api/auth
+    routes:
+      - name: security-route
+        paths:
+          - /api/token
