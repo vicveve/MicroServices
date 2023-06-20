@@ -6,7 +6,7 @@ using MS.AFORO255.Withdrawal.Messages.Events;
 namespace MS.AFORO255.Withdrawal.Messages.CommandHandlers
 {
     public class NotificationCommandHandler : IRequestHandler<NotificationCreateCommand, bool>
-    {
+    {  
         private readonly IEventBus _bus;
 
         public NotificationCommandHandler(IEventBus bus) => _bus = bus;

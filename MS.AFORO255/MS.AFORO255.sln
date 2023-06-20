@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10BF2CE6-176F-46EE-9D7F-7E5BE7C271AE}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose-databases.yml = docker-compose-databases.yml
+		docker-compose-gateway.yml = docker-compose-gateway.yml
 		docker-compose-services.yml = docker-compose-services.yml
 	EndProjectSection
 EndProject
@@ -28,6 +29,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kong", "Kong", "{6AB68530-D8C1-4C60-B7CD-AC3B85556268}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{CF6CF204-87F6-4F22-95EF-80761042CCFF}"
+	ProjectSection(SolutionItems) = preProject
+		kong.yml = kong.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross", "Cross", "{EA7FF12F-3FC2-43B5-94B4-FB1FE5644C25}"
 EndProject
