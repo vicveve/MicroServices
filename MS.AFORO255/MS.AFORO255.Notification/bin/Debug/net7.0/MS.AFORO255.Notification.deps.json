@@ -9,7 +9,8 @@
       "MS.AFORO255.Notification/1.0.0": {
         "dependencies": {
           "Aforo255.Cross.Event": "6.0.0",
-          "MySql.EntityFrameworkCore": "7.0.0"
+          "MySql.EntityFrameworkCore": "7.0.0",
+          "nacos-sdk-csharp.Extensions.Configuration": "1.1.0"
         },
         "runtime": {
           "MS.AFORO255.Notification.dll": {}
@@ -38,6 +39,51 @@
           "lib/net5.0/Google.Protobuf.dll": {
             "assemblyVersion": "3.21.9.0",
             "fileVersion": "3.21.9.0"
+          }
+        }
+      },
+      "Grpc.Core/2.34.1": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.34.1",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.34.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.34.1": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.34.1.0"
           }
         }
       },
@@ -167,6 +213,22 @@
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {},
+      "Microsoft.Extensions.DependencyModel/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0"
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -176,6 +238,29 @@
         }
       },
       "Microsoft.Extensions.Logging.Abstractions/7.0.0": {},
+      "Microsoft.Extensions.Logging.Configuration/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Console/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging.Configuration": "5.0.0",
+          "Microsoft.Extensions.Options": "7.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0"
+        }
+      },
       "Microsoft.Extensions.Options/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -261,6 +346,37 @@
           "lib/net7.0/MySql.EntityFrameworkCore.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "nacos-sdk-csharp/1.1.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.9",
+          "Grpc.Core": "2.34.1",
+          "Microsoft.Extensions.DependencyModel": "5.0.0",
+          "Microsoft.Extensions.Http": "5.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Nacos.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "nacos-sdk-csharp.Extensions.Configuration/1.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Logging.Console": "5.0.0",
+          "Microsoft.Extensions.Options": "7.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "nacos-sdk-csharp": "1.1.0"
+        },
+        "runtime": {
+          "lib/net5.0/Nacos.Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       },
@@ -466,6 +582,20 @@
       "path": "google.protobuf/3.21.9",
       "hashPath": "google.protobuf.3.21.9.nupkg.sha512"
     },
+    "Grpc.Core/2.34.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RTvXOOsVFFTrwrwxB2dJoA8f388igOOq6dhGuzN1vjsODRVhrdcZq6FOwqRlU7Ynu8IZrUMs2q5cQKlAGBkhbg==",
+      "path": "grpc.core/2.34.1",
+      "hashPath": "grpc.core.2.34.1.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.34.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OZa4ZUnZf1x1tTyqsGsCYOXDDDoBwQlc+IUqElOGa3asEFnUoufGsF5rTE0sa+gbttXnzgB/o+69YXEqNnh3rQ==",
+      "path": "grpc.core.api/2.34.1",
+      "hashPath": "grpc.core.api.2.34.1.nupkg.sha512"
+    },
     "K4os.Compression.LZ4/1.2.6": {
       "type": "package",
       "serviceable": true,
@@ -578,6 +708,20 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.DependencyModel/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-umBECCoMC+sOUgm083yFr8SxTobUOcPFH4AXigdO2xJiszCHAnmeDl4qPphJt+oaJ/XIfV1wOjIts2nRnki61Q==",
+      "path": "microsoft.extensions.dependencymodel/5.0.0",
+      "hashPath": "microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kT1ijDKZuSUhBtYoC1sXrmVKP7mA08h9Xrsr4VrS/QOtiKCEtUTTd7dd3XI9dwAb46tZSak13q/zdIcr4jqbyg==",
+      "path": "microsoft.extensions.http/5.0.0",
+      "hashPath": "microsoft.extensions.http.5.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -591,6 +735,20 @@
       "sha512": "sha512-kmn78+LPVMOWeITUjIlfxUPDsI0R6G0RkeAMBmQxAJ7vBJn4q2dTva7pWi65ceN5vPGjJ9q/Uae2WKgvfktJAw==",
       "path": "microsoft.extensions.logging.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Configuration/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N3/d0HeMRnBekadbZlmbp+In8EvNNkQHSdbtRzjrGVckdZWpYs5GNrAfaYqVplDFW0WUedSaFJ3khB50BWYGsw==",
+      "path": "microsoft.extensions.logging.configuration/5.0.0",
+      "hashPath": "microsoft.extensions.logging.configuration.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Console/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jH0wbWhfvXjOVmCkbra4vbiovDtTUIWLQjCeJ7Xun3h4AHvwfzm7V7wlsXKs3tNnPrsCxZ9oaV0vUAgGY1JxOA==",
+      "path": "microsoft.extensions.logging.console/5.0.0",
+      "hashPath": "microsoft.extensions.logging.console.5.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/7.0.0": {
       "type": "package",
@@ -647,6 +805,20 @@
       "sha512": "sha512-z1XBdnVcfs1gayd5byjIVP6K1ayxE7iXbqsCfQV6CTi0hp73py+fuiYi2X2JWMg5mrafcWrWDrcX/4omM6Vrcg==",
       "path": "mysql.entityframeworkcore/7.0.0",
       "hashPath": "mysql.entityframeworkcore.7.0.0.nupkg.sha512"
+    },
+    "nacos-sdk-csharp/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AO6xT71Kt+y9B530Gx08j4VhknIg0xj9VUaNKZ/Hk5iVxMLdEkqIRDBHtiQZbcjoWiZ/ESetKIvTD1pYiQ2Vtg==",
+      "path": "nacos-sdk-csharp/1.1.0",
+      "hashPath": "nacos-sdk-csharp.1.1.0.nupkg.sha512"
+    },
+    "nacos-sdk-csharp.Extensions.Configuration/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1oEIC+cStCOOpiXFbiEWFm4PCdksSzvkrHwwGu43QQvyA/m8IRDlztpeDQt+LLzH1c5Ky9knbhsQNoOdeyjriw==",
+      "path": "nacos-sdk-csharp.extensions.configuration/1.1.0",
+      "hashPath": "nacos-sdk-csharp.extensions.configuration.1.1.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",

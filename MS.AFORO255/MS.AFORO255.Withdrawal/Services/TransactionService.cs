@@ -21,14 +21,6 @@ public class TransactionService : ITransactionService
     {
         _contextDatabase.Transaction.Add(transaction);
         _contextDatabase.SaveChanges();
-
-        _eventBus.SendCommand(new TransactionCreateCommand(transaction.Id, transaction.Amount, transaction.Type,
-               transaction.CreationDate, transaction.AccountId));
-
-        _eventBus.SendCommand(new NotificationCreateCommand(transaction.Id, transaction.Amount, transaction.Type,
-                 "", "", transaction.AccountId));
-
-
         return transaction;
     }
 

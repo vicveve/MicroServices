@@ -44,6 +44,59 @@ services:
     - 8848:8848
     networks:
     - aforo255
+  service-tracer:
+    image: openzipkin/zipkin:2
+    container_name: component-tracer 
+    restart: always
+    ports:
+    - 9411:9411
+    networks:
+    - aforo255
+  service-metrics:
+    image: prom/prometheus:v2.31.1
+    container_name: component-metrics
+    restart: always
+    ports:
+    - 9090:9090
+    volumes:
+    - C:/docker/net7/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    networks:
+    - aforo255
+  service-analytics:
+    image: grafana/grafana:8.2.3
+    container_name: component-analytics
+    restart: always
+    ports:
+    - 3000:3000
+    networks:
+    - aforo255
+    depends_on:
+    - service-metrics	
+  service-log-elastic:    
+    image: elasticsearch:6.8.20
+    container_name: component-log-elastic
+    restart: always
+    ports:
+    - 9200:9200
+    environment:
+    - xpack.monitoring.enabled=true
+    - xpack.watcher.enabled=false
+    - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    - discovery.type=single-node
+    networks:
+    - aforo255
+  service-log-kibana:
+    image: kibana:6.8.20
+    container_name: component-log-kibana
+    restart: always
+    ports:
+    - 5601:5601
+    depends_on:
+    - service-log-elastic
+    environment:
+    - ELASTICSEARCH_URL=http://component-log-elastic:9200
+    networks:
+    - aforo255	
  
 networks:
   aforo255:

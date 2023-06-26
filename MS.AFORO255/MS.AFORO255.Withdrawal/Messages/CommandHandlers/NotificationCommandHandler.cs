@@ -14,7 +14,7 @@ namespace MS.AFORO255.Withdrawal.Messages.CommandHandlers
         public Task<bool> Handle(NotificationCreateCommand request, CancellationToken cancellationToken)
         {
             _bus.Publish(new NotificationCreatedEvent(request.IdTransaction, request.Amount, request.Type,
-                    "", "", request.AccountId));
+               request.MessageBody, request.Address, request.AccountId));
             return Task.FromResult(true);
         }
     }

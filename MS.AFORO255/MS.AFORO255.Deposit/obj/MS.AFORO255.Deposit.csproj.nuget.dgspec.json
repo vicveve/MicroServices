@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vicWorkSpace\\GitHub\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\MS.AFORO255.Deposit.csproj": {}
+    "C:\\Users\\vvict\\Documents\\GitHub\\Microservicios\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\MS.AFORO255.Deposit.csproj": {}
   },
   "projects": {
-    "D:\\vicWorkSpace\\GitHub\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\MS.AFORO255.Deposit.csproj": {
+    "C:\\Users\\vvict\\Documents\\GitHub\\Microservicios\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\MS.AFORO255.Deposit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vicWorkSpace\\GitHub\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\MS.AFORO255.Deposit.csproj",
+        "projectUniqueName": "C:\\Users\\vvict\\Documents\\GitHub\\Microservicios\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\MS.AFORO255.Deposit.csproj",
         "projectName": "MS.AFORO255.Deposit",
-        "projectPath": "D:\\vicWorkSpace\\GitHub\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\MS.AFORO255.Deposit.csproj",
-        "packagesPath": "C:\\Users\\vevelasco\\.nuget\\packages\\",
-        "outputPath": "D:\\vicWorkSpace\\GitHub\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\obj\\",
+        "projectPath": "C:\\Users\\vvict\\Documents\\GitHub\\Microservicios\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\MS.AFORO255.Deposit.csproj",
+        "packagesPath": "C:\\Users\\vvict\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vvict\\Documents\\GitHub\\Microservicios\\MicroServices\\MS.AFORO255\\MS.AFORO255.Deposit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vevelasco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vvict\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "http://10.100.66.131:8080/tfs/CDSJPackageCollection/_packaging/CJF.Nuget/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -47,13 +47,29 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Aforo255.Cross.Discovery": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Aforo255.Cross.Event": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Aforo255.Cross.Http": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "nacos-sdk-csharp.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             }
           },
           "imports": [
@@ -75,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

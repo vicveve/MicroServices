@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aforo255.Cross.Discovery" Version="6.0.0" />
     <PackageReference Include="Aforo255.Cross.Token" Version="6.0.0" />
+    <PackageReference Include="Aforo255.Cross.Tracing" Version="6.0.1" />
     <PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="nacos-sdk-csharp.Extensions.Configuration" Version="1.1.0" />
   </ItemGroup>
 
 </Project>

@@ -8,10 +8,17 @@ using MS.AFORO255.Notification.Messages.Events;
 using MS.AFORO255.Notification.Messages.EventHandlers;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.ConfigureAppConfiguration((host, builder) =>
+{
+    var c = builder.Build();
+    builder.AddNacosConfiguration(c.GetSection("nacosConfig"));
+});
+
 builder.Services.AddDbContext<ContextDatabase>(
     opt =>
     {
-        opt.UseMySQL(builder.Configuration["mariadb:cn"]);
+        opt.UseMySQL(builder.Configuration["cn:mariadb"]);
     });
 
 
