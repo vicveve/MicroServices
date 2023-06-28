@@ -1,4 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Aforo255.Cross.Discovery.Consul;
+using Aforo255.Cross.Discovery.Fabio;
+using Aforo255.Cross.Metric.Registry;
+using Aforo255.Cross.Tracing.Src.Zipkin;
+using Microsoft.EntityFrameworkCore;
 using MS.AFORO255.Account.Persistences;
 using MS.AFORO255.Account.Service;
 
@@ -20,6 +24,10 @@ public class Startup
           });
 
         services.AddScoped<IAccountService, AccountService>();
+        services.AddConsul();
+        services.AddFabio();
+        services.AddJZipkin();
+        services.AddTransient<IMetricsRegistry, MetricsRegistry>();
     }
 
     public void Configure(IApplicationBuilder app, IHostApplicationLifetime lifetime)

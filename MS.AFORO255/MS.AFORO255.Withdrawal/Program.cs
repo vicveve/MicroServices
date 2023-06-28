@@ -3,6 +3,10 @@ using Aforo255.Cross.Discovery.Fabio;
 using Aforo255.Cross.Event.Src;
 using Aforo255.Cross.Event.Src.Bus;
 using Aforo255.Cross.Http.Src;
+using Aforo255.Cross.Log.Src.Elastic;
+using Aforo255.Cross.Metric.Metrics;
+using Aforo255.Cross.Metric.Registry;
+using Aforo255.Cross.Tracing.Src.Zipkin;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +15,7 @@ using MS.AFORO255.Withdrawal.Messages.Commands;
 using MS.AFORO255.Withdrawal.Models;
 using MS.AFORO255.Withdrawal.Persistences;
 using MS.AFORO255.Withdrawal.Services;
+using Serilog;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +24,9 @@ builder.Host.ConfigureAppConfiguration((host, builder) =>
     var c = builder.Build();
     builder.AddNacosConfiguration(c.GetSection("nacosConfig"));
 });
+builder.WebHost.UseAppMetrics();
+ExtensionsElastic.ConfigureLog(builder.Configuration);
+builder.WebHost.UseSerilog();
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ContextDatabase>(
     options =>
@@ -34,7 +42,8 @@ builder.Services.AddTransient<IRequestHandler<NotificationCreateCommand, bool>, 
 builder.Services.AddProxyHttp();
 builder.Services.AddConsul();
 builder.Services.AddFabio();
-
+builder.Services.AddJZipkin();
+builder.Services.AddTransient<IMetricsRegistry, MetricsRegistry>();
 
 var app = builder.Build();
 

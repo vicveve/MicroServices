@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Aforo255.Cross.Metric.Registry;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MS.AFORO255.Deposit.Controllers
 {
@@ -7,10 +8,12 @@ namespace MS.AFORO255.Deposit.Controllers
     public class HomeController : ControllerBase
     {
         private readonly ILogger<HomeController> _logger;
+       
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+         
         }
 
         [HttpGet("ping")]

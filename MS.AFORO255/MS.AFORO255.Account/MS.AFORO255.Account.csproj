@@ -8,7 +8,9 @@
 
   <ItemGroup>
     <PackageReference Include="Aforo255.Cross.Discovery" Version="6.0.0" />
+    <PackageReference Include="Aforo255.Cross.Log" Version="6.0.1" />
     <PackageReference Include="Aforo255.Cross.Metric" Version="6.0.0" />
+    <PackageReference Include="Aforo255.Cross.Tracing" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
     <PackageReference Include="nacos-sdk-csharp.Extensions.Configuration" Version="1.1.0" />
   </ItemGroup>

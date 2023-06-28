@@ -10,6 +10,11 @@ using Aforo255.Cross.Event.Src.Bus;
 using Aforo255.Cross.Discovery.Consul;
 using Aforo255.Cross.Discovery.Fabio;
 using Aforo255.Cross.Cache.Src;
+using Aforo255.Cross.Tracing.Src.Zipkin;
+using Aforo255.Cross.Metric.Registry;
+using Aforo255.Cross.Metric.Metrics;
+using Aforo255.Cross.Log.Src.Elastic;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +24,9 @@ builder.Host.ConfigureAppConfiguration((host, builder) =>
     var c = builder.Build();
     builder.AddNacosConfiguration(c.GetSection("nacosConfig"));
 });
+builder.WebHost.UseAppMetrics();
+ExtensionsElastic.ConfigureLog(builder.Configuration);
+builder.WebHost.UseSerilog();
 // Add services to the container.
 builder.Services.AddCarter();
 builder.Services.Configure<Mongosettings>(opt =>
@@ -39,11 +47,13 @@ builder.Services.AddTransient<IEventHandler<TransactionCreatedEvent>, Transactio
 
 builder.Services.AddConsul();
 builder.Services.AddFabio();
-
+builder.Services.AddJZipkin();
 //REDIS
 builder.Services.AddRedis();
 builder.Services.AddSingleton<IExtensionCache, ExtensionCache>();
 
+//Metricas
+builder.Services.AddTransient<IMetricsRegistry, MetricsRegistry>();
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 app.MapCarter();

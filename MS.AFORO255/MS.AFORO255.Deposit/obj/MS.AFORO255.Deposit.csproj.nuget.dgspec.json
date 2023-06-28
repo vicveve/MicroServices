@@ -59,6 +59,18 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Aforo255.Cross.Log": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Aforo255.Cross.Metric": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Aforo255.Cross.Tracing": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.3, )"
